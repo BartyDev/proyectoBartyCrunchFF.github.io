@@ -1,4 +1,6 @@
-//Este es mi simulador de compra de comida rapida ,aun apenas es un comienzo,si tienes algun consejo para contribuir te animo me los dejes saber en los comentarios, GRACIAS!!
+
+function container() {
+    //Este es mi simulador de compra de comida rapida ,aun apenas es un comienzo,si tienes algun consejo para contribuir te animo me los dejes saber en los comentarios, GRACIAS!!
 
 //comenzamos con una funcion de saludo al cliente del cual retornaremos el nombre para usarlo posteriormente
 function nuevoNombre() {
@@ -58,7 +60,7 @@ function agregados() {
     } while (agree !== 1 && agree !== 2 && agree !== 3) {}
     switch (agree) {
         case 1:
-            return 'papas simples'
+            return 'papas simples 🍟'
         case 2:
             return 'bebida 🥤'
         case 3:
@@ -111,3 +113,6 @@ cuentaAgree(cliente, agregado, costo2);
 
 
 /* variables que contiene las diferentes funciones realizadas , encuentro que esta forma tiene un mejor orden al ejecutar */
+}
+
+

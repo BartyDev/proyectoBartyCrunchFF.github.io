@@ -36,10 +36,23 @@ img {
     margin: 90px 2px;
 }
 
-.subtitle {
+.dad-botonx {
+    display: flex;
+    justify-content: center;
     margin: 100px 5px 150px;
-    text-align: center;
-    color: rgb(206, 175, 130);
+}
+
+.botonx {  
+    background-color: rgb(255, 248, 186);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.botonx:hover {
+    background-color: #000;
+    color: rgb(228, 149, 30);
 }
 
 .ip {
@@ -64,9 +77,8 @@ img {
         height: 220px;
     }
 
-    .subtitle {
+    .dad-botonx {
         margin: 50px 3px;
-
     }
 
 }
